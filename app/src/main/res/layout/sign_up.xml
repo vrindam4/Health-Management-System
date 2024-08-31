@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Details"
+            android:textSize="50dp"
+            android:textAlignment="center"
+            android:textColor="#F000"
+            android:editable="false"
+            />
+        <EditText
+            android:id="@+id/signup_name"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:id="@+id/signup_emailid"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:id="@+id/signup_password"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:id="@+id/signup_phone"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="Phone"
+            android:textSize="20dp"
+            />
+        <Button
+            android:id="@+id/signup_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Sign Up "
+            android:textSize="30dp"
+            android:editable="false"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
