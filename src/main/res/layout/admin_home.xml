@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_marginTop="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Admin Scanner"
+            android:textSize="50dp"
+            android:textAlignment="center"
+            android:textColor="#0A0A0A"
+            android:editable="false"
+            />
+
+        <Button
+            android:id="@+id/admin_barcode_scan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:editable="false"
+            android:text="Scan"
+            android:textSize="30dp" />
+        <Button
+            android:id="@+id/admin_add_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:editable="false"
+            android:text="Add Data"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+</LinearLayout>
